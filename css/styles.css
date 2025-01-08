@@ -13,7 +13,7 @@ a {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
@@ -57,22 +57,19 @@ a {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
   }
   .main-button {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 10px;
-    border-radius: 4px;
-    padding: 16px 32px;
+    font-family: "Roboto", sans-serif
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+    letter-spacing: 0.04em;
     width: 169px;
     height: 56px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
     cursor: pointer;
     color: #fff;;
@@ -87,7 +84,7 @@ a {
   }
   .main-button:hover,
   .main-button:focus {
-    color: #404bbf;
+    color:#404BBF;
   }
   .goals-item-text {
     font-size: 16px;
@@ -96,18 +93,24 @@ a {
     color: #434455;
   }
   .text-team-main {
+    background-color: #F4F4FD
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
   }
+.team-list {
+  background-color: #FFFFFF;
+}
   .team-img {
     width: 264px;
     height: 260px;
   }
   .team-title {
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -128,7 +131,12 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    background-color: #F4F4FD;
+    text-transform: capitalize;
   }
+     .portfolio-item {
+      background-color: #FFFFFF;
+     }
   .portfolio-img {
     width: 360px;
     height: 300px;
@@ -136,7 +144,7 @@ a {
   .portfolio-title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2e2f42;
   }
@@ -155,6 +163,8 @@ a {
   .page-footer {
     background: #2e2f42;
   }
+.footer-logo 
+ line-height: 1.17
 
 
 
